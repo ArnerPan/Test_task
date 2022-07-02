@@ -1,0 +1,16 @@
+[
+
+  {
+    "name": "Not reachable",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*WebDriverException.*"
+  },
+  {
+    "name": "Product defects",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "tests passed",
+    "matchedStatuses": ["passed"]
+  }
+]
