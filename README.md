@@ -32,7 +32,7 @@
 This task done according due requirements, used Python with only and  **pytest-allure ,with pure selenium**,
 but honestly i'd prefer to use `selene` with some useful stuff like `pydantic` and etc... but  as told your **HR** i have to do what asked, so i just followed the conditions , **let's go on.**
 
-**This project is done for [OTR](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley) as (test task)** .
+**This project is done for [OTR](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley) (as test task)** .
 
 ## How to use
 
