@@ -3,18 +3,11 @@
 
 [![made by](https://img.shields.io/twitter/url?color=orange&label=telegram&logo=telegram&logoColor=orange&style=social&url=https%3A%2F%2Ft.me%2FArnerPan)](https://t.me/ArnerPan)[![made by](https://img.shields.io/badge/Done%20by-Arner%20Pan-orange)](https://t.me/ArnerPan)
 
-
-
-
-
-
-
-
 </h2>
 
 <p align="center">
-  
-<img src="	https://img.shields.io/github/license/ArnerPan/Test_task">
+
+<img src="https://img.shields.io/github/license/ArnerPan/Test_task">
 
 <img src="https://img.shields.io/badge/Pytest-7.1.2-9cf" >
 
