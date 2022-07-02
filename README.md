@@ -6,7 +6,7 @@
 </h2>
 
 <p align="center">
-
+  
 <img src="https://img.shields.io/github/license/ArnerPan/Test_task">
 
 <img src="https://img.shields.io/badge/Pytest-7.1.2-9cf" >
@@ -32,7 +32,7 @@
 This task done according due requirements, used Python with only and  **pytest-allure ,with pure selenium**,
 but honestly i'd prefer to use `selene` with some useful stuff like `pydantic` and etc... but  as told your **HR** i have to do what asked, so i just followed the conditions , **let's go on.**
 
-**This project is done for [OTK](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley) as test task)** .
+**This project is done for [OTR](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley) as (test task)** .
 
 ## How to use
 
@@ -55,7 +55,7 @@ pytest --alluredir=allure-report/ tests
 
 ### **ALL** dependencies what you need to run the project are already in `.venv`-
 
-- **if** if `your`**IDE** can't  find virtual enviroment , use **.venv** for it.
+- **if**  `your`**IDE** can't  find virtual enviroment , use **.venv** for it.
 (For **PyChram** it's `-> Setting ->Project-> Python interpreter` them set **Scripts/python.exe** from `.venv` as interpreter)
 
 ## About the project.
