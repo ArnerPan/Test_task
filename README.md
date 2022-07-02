@@ -80,7 +80,7 @@ pytest --alluredir=allure-report/ tests
 
 `2) Check what footer and header of site exists and visible`
 
-`3) Get All links from site , check every should have responce code "200"`
+`3) Get All links from site , check every should have responce code "200" their amount should be 280`
 
 `4) OPEN every link and CHECK  current url by link exactly matches with url by link`
 
