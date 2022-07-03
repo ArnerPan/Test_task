@@ -22,5 +22,3 @@ def should():
 
     yield app
     app.destroy()
-
-

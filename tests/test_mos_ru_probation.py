@@ -5,7 +5,7 @@ import pytest
 import allure
 import requests
 
-links = Collector.get_links_from("https://www.mos.ru/")
+links = Collector.get_links_from("https://www.mos.ru/", avoid_duplicate=True)
 
 
 @allure.link("https://t.me/ArnerPan", name="author")
@@ -53,6 +53,6 @@ def test_links_amount(amount: int = 280):
 @allure.description("Check if link follows exactly to it`s URL")
 @allure.story("check every link is direct to address ")
 @pytest.mark.parametrize('link', links)
-def test_link_is_direct_to_address(should, link):
+def test_link_is_direct_to_address(should, link: str):
     with allure.step(f"Got URL {should.get_url_by_link(link)} by link {link} "):
         assert should.get_url_by_link(link) == link, "URL IS DIFFERENT"

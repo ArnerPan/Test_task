@@ -98,9 +98,14 @@ pytest --alluredir=allure-report/ tests
 ## If you don't want to run tests and just want to see `Allure-report ` type : 
 
 ```
-allure serve allure-report_tested_once/
-
+allure serve allure-report_tested_once/avoid_duplicate=False/
 ```
+**or :**
+```
+allure serve allure-report_tested_once/avoid_duplicate=True/
+```
+Where the last one is `test` performed with `rejection of links duplication`
+
 
 <p align="center">
 <img src="./readme_stickers/help.png" width ="30%" ></p>

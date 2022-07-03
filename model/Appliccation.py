@@ -1,8 +1,6 @@
 
 import chromedriver_binary
 import allure
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.support import expected_conditions as ec
@@ -13,7 +11,6 @@ class App:
     def __init__(self, driver):
         self.driver = driver
 
-
     def open_mos_page(self):
         driver = self.driver
         driver.get("https://www.mos.ru/")
@@ -22,23 +19,12 @@ class App:
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         return WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located((method, locator)))
 
-    def get_all_links_from_url(self, url: str):
-
-        chrome_options = Options()
-        chrome_options.headless = True
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.get(url)
-        founded_links = self.driver.find_elements_by_css_selector(":link")
-        links = ['{}'.format(link_element.get_attribute("href"))
-                 for link_element in founded_links]
-        driver.close()
-        return links
-
     def get_url_by_link(self, link):
         driver = self.driver
-        driver.implicitly_wait(10)
         driver.get(link)
         try:
+            WebDriverWait(driver, 10).until(
+                lambda drive: driver.execute_script('return document.readyState') == 'complete')
             return driver.current_url
         except WebDriverException:
             with allure.tag("link not worked"):
