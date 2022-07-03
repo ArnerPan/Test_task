@@ -92,7 +92,7 @@ pytest --alluredir=allure-report/ tests
 <img src="https://cdn.discordapp.com/attachments/341525489287954432/992835019842265098/11.23.2020_..gif" width ="30%" > </p>
 
 - Но, если честно и между нами, то искренне надеюсь на фидбек  о своей работе,от тех, для кого этот проект созадн, если вы до сюда дочитали стену из английского текста, то хорошего вам настроения , и удачного дня !:)
-- But, if to be honest between us, i honsetly hope so for feedback, about my work, from those, for whom this project created, if had read all of these wall of eng text ,then have a good mood  and great day :)
+- But, if to be honest between us, i honsetly hope so for feedback, about my work, from those, for whom this project created, if you had read all of these wall of eng texts ,then have a good mood and great day :)
 
 
 ## If you don't want to run tests and just want to see `Allure-report ` type : 
