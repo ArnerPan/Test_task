@@ -1,7 +1,7 @@
 <h1 align="center">TEST TASK</h1>
 <h2 align="center">
 
-[![made by](https://img.shields.io/twitter/url?color=orange&label=telegram&logo=telegram&logoColor=orange&style=social&url=https%3A%2F%2Ft.me%2FArnerPan)](https://t.me/ArnerPan)[![made by](https://img.shields.io/badge/Done%20by-Arner%20Pan-orange)](https://t.me/ArnerPan)
+[![made by](https://img.shields.io/badge/Done%20by-Arner%20Pan-orange)](https://t.me/ArnerPan)[![made by](https://img.shields.io/twitter/url?color=orange&label=telegram&logo=telegram&logoColor=orange&style=social&url=https%3A%2F%2Ft.me%2FArnerPan)](https://t.me/ArnerPan)
 
 </h2>
 
