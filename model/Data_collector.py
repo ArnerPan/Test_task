@@ -17,13 +17,13 @@ def get_links_from(url: str = "https://www.mos.ru/"):
         scroll = scroll + 1000
         driver.execute_script(f"window.scrollTo(0, {scroll})")
         time.sleep(0.5)
-
-    time.sleep(5)
     founded_links = driver.find_elements_by_css_selector(":link")
     links = ['{}'.format(link_element.get_attribute("href"))
              for link_element in founded_links]
-    print(len(links))
+    driver.close()
     return links
+
+
 
 
 

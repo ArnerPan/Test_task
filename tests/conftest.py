@@ -17,6 +17,7 @@ def should():
 
     # Initiate Chrome
     driver = webdriver.Chrome(chrome_options=chrome_options)
+
     app = App(driver)
 
     yield app

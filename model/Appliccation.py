@@ -13,6 +13,7 @@ class App:
     def __init__(self, driver):
         self.driver = driver
 
+
     def open_mos_page(self):
         driver = self.driver
         driver.get("https://www.mos.ru/")
@@ -34,8 +35,8 @@ class App:
         return links
 
     def get_url_by_link(self, link):
-
         driver = self.driver
+        driver.implicitly_wait(10)
         driver.get(link)
         try:
             return driver.current_url
