@@ -18,6 +18,7 @@ class App:
         driver.get("https://www.mos.ru/")
 
     def element_visible(self, method, locator):
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         return WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located((method, locator)))
 
     def get_all_links_from_url(self, url: str):

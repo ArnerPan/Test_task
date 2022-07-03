@@ -12,7 +12,7 @@ links = Collector.get_links_from("https://www.mos.ru/")
 @allure.sub_suite("Check header and footer presence")
 @allure.description("Checking if header is present and visible")
 @allure.story("check presence of header")
-def test_footer(should, method=By.CSS_SELECTOR, selector: str = ".Header_inside__1MzA3 "):
+def test_header(should, method=By.CSS_SELECTOR, selector: str = ".Header_inside__1MzA3 "):
     with allure.step(f"wait until -> {selector} is displayed "):
         should.open_mos_page()
         should.element_visible(method, selector,)
@@ -22,7 +22,7 @@ def test_footer(should, method=By.CSS_SELECTOR, selector: str = ".Header_inside_
 @allure.sub_suite("Check header and footer presence")
 @allure.description("Checking if footer is present and visible")
 @allure.story("check presence of footer")
-def test_header(should, method=By.CSS_SELECTOR, selector: str = ".Footer_footer__3tfqc"):
+def test_footer(should, method=By.CSS_SELECTOR, selector: str = ".Footer_footer__3tfqc"):
     with allure.step(f"wait until -> {selector} is displayed "):
         should.open_mos_page()
         should.element_visible(method, selector,)
